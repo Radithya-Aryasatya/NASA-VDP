@@ -9,3 +9,5 @@
   Bugcrowd are unreachable (DNS fails). Cannot read live policy or interact with targets.
 - Did NOT begin any active testing. Surfaced the authorization gate + network blocker to
   the user (two things only the user can resolve).
+- User confirmed NOT enrolled in NASA VDP. Pivoted to local-only prep; wrote
+  `ENROLLMENT.md` (how to become authorized). No active testing performed.

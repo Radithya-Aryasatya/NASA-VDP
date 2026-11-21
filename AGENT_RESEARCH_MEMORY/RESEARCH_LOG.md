@@ -7,3 +7,4 @@
 - No research objective given yet; recorded as open question.
 - Push to origin failed: HTTP 403, GitHub App not authorized for org. User action needed.
 2026-11-21 — Mission brief received. Built MISSION.md + hypotheses/parking-lot/session-log; recorded decisions D-002..D-004. Confirmed GitHub push works. Confirmed network blocks NASA/Bugcrowd (DNS fail). No active testing performed (authorization + network gates). Surfaced blockers to user.
+2026-11-21 — User answered authorization question: NOT enrolled yet. Halting at local-only prep (no testing, no network change). Wrote ENROLLMENT.md with the authorization on-ramp. Live policy still unread (network blocks nasa.gov); user can read it in a browser.

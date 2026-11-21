@@ -27,6 +27,10 @@ vulnerability in NASA's authorized VDP scope. Integrity bar is high; no fabricat
 - Env `env_01F5GnAWrL2nvhAzDArq4Vd8` "Default": network `limited`, allowed_hosts=[],
   package managers + MCP allowed. No secrets, no setup script.
 
+## Authorization status
+- 2026-11-21: User reports **NOT enrolled** in NASA's VDP yet. => No testing. Local-only
+  prep continues. On-ramp written to `ENROLLMENT.md`.
+
 ## Open questions for the user
 1. Are you an enrolled/authorized participant in NASA's VDP (Bugcrowd), bound by its terms?
 2. Do you authorize active, in-scope, non-destructive testing from this cloud environment?

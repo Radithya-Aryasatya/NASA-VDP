@@ -9,8 +9,9 @@ _Written: 2026-11-21 (UTC)_
 - Durability infra + mission archive exist and are pushed to the research branch.
 - GitHub push works.
 - **Two blockers owned by the user, both open as of this writing:**
-  1. **Authorization gate** — need explicit confirmation the user is an enrolled/authorized
-     NASA VDP participant and an explicit go-ahead before ANY active testing (D-002).
+  1. **Enrollment/authorization gate** — as of 2026-11-21 the user is NOT enrolled in
+     NASA's VDP. No active testing until they enroll (see `ENROLLMENT.md`) AND give an
+     explicit go-ahead (D-002). Check if they have enrolled before doing anything network.
   2. **Network** — Default env (`env_01F5GnAWrL2nvhAzDArq4Vd8`) is `limited`, allow-list
      empty; `www.nasa.gov`/`bugcrowd.com` unreachable. Need the user to approve enabling
      hosts (D-004). Start READ-only (policy pages) before anything else.
