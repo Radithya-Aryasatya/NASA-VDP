@@ -9,6 +9,7 @@ VMs**. Conversation history and VM state are NOT durable. **GitHub is the durabl
 2. Sync with the remote research branch without discarding local work:
    `bash scripts/recover.sh` (fetch + fast-forward/merge; never reset or force).
 3. Read, in order:
+   - `AGENT_RESEARCH_MEMORY/MISSION.md` — the objective and the integrity constraints
    - `AGENT_RESEARCH_MEMORY/README.md` — how the archive is organized
    - `AGENT_RESEARCH_MEMORY/CURRENT_STATE.md` — what is true right now
    - `AGENT_RESEARCH_MEMORY/NEXT_SESSION_HANDOFF.md` — exactly what to do next
