@@ -15,4 +15,7 @@ processes were running when this was written.
 4. Begin the research cycle; checkpoint with `bash scripts/checkpoint.sh "<msg>"`.
 
 ## Warnings
-- None yet.
+- 2026-11-21: `git push` was refused with HTTP 403 (Claude GitHub App not authorized for
+  the repo's org). If this file is being read from GitHub, that was fixed. If the remote
+  branch is missing, the first checkpoint was lost with the VM — recreate from `CLAUDE.md`'s
+  description.

@@ -5,3 +5,4 @@
 - Created `CLAUDE.md`, `AGENT_RESEARCH_MEMORY/` archive, and `scripts/`
   (`recover.sh`, `checkpoint.sh`, `verify_env.sh`).
 - No research objective given yet; recorded as open question.
+- Push to origin failed: HTTP 403, GitHub App not authorized for org. User action needed.

@@ -13,6 +13,7 @@ _Last updated: 2026-11-21 (UTC)_
 
 ## Status
 - DONE: Durability/recovery infrastructure (`CLAUDE.md`, this archive, `scripts/`).
+- BLOCKED (GitHub push returns 403: Claude GitHub App lacks access for this org, 2026-11-21): first push of the research branch. Commits exist only locally until fixed.
 - TODO: Obtain research objective and scope from the user.
 
 ## Environment (verified 2026-11-21)
