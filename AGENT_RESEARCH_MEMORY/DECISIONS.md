@@ -26,3 +26,18 @@
 - **Context:** Default env has limited network, empty allow-list; NASA/Bugcrowd unreachable.
 - **Decision:** Do not quietly widen network to government targets. Surface to user; enable
   hosts only with the user's approval, starting with READ-only policy pages.
+
+## D-005 — 2026-11-22 — Scope authority = intersection of policy + Bugcrowd Targets
+- **Context:** Policy lists 5 registered domains but states testing is authorized ONLY on
+  the Bugcrowd "Targets" list; that list isn't readable from this environment.
+- **Decision:** No host is cleared for ANY interaction (even passive probing of NASA infra)
+  until the exact Bugcrowd Targets are confirmed by the enrolled user. OSINT from
+  third-party sources (CT logs, public code) that does not touch NASA systems is permissible
+  for planning, but host interaction waits for confirmed targets.
+- **Consequence:** One more confirmation needed from the user; keeps us from accidental
+  out-of-scope testing (penalty risk).
+
+## D-006 — 2026-11-22 — Created dedicated env `nasa-vdp-research`
+- Personal env `env_01QZV8SP4GYmP1giijsWSqXj`, network limited to `www.nasa.gov` +
+  `bugcrowd.com` (read-only policy). Keeps NASA access off the Default env. Session switched
+  (network_only). Add specific in-scope target hosts later, only after targets confirmed.

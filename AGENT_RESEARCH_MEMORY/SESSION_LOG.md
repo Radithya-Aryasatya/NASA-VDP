@@ -11,3 +11,5 @@
   the user (two things only the user can resolve).
 - User confirmed NOT enrolled in NASA VDP. Pivoted to local-only prep; wrote
   `ENROLLMENT.md` (how to become authorized). No active testing performed.
+- Read live policy; captured scope/prohibitions/LOR bar to artifacts. Awaiting exact
+  Bugcrowd Targets from enrolled user before any host interaction.

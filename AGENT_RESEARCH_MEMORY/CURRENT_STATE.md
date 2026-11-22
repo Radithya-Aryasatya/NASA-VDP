@@ -27,8 +27,21 @@ vulnerability in NASA's authorized VDP scope. Integrity bar is high; no fabricat
 - Env `env_01F5GnAWrL2nvhAzDArq4Vd8` "Default": network `limited`, allowed_hosts=[],
   package managers + MCP allowed. No secrets, no setup script.
 
+## Scope & policy (read 2026-11-22)
+- Live NASA VDP policy captured: `artifacts/nasa_vdp_policy_2026-11-22.md`.
+- Working scope authority: `artifacts/SCOPE_AUTHORITATIVE.md`.
+- In-scope registered domains per policy: nasa.gov, usgeo.gov, globe.gov,
+  nspires.nasaprs.com, nsc.nasa.gov (NASA-managed, internet-accessible).
+- **PENDING:** exact Bugcrowd Targets list (SPA; not readable here, API probing auto-denied).
+  No specific host is cleared for interaction until the enrolled user confirms the targets.
+- LOR bar: P1–P4, validated + accepted + CONFIRMED FIXED. Automated-scan-only excluded.
+- Reporting channel: Bugcrowd only. 90-day non-disclosure.
+
 ## Authorization status
-- 2026-11-21: User reports **NOT enrolled** in NASA's VDP yet. => No testing. Local-only
+- 2026-11-22: User reports **ENROLLED** and authorizes in-scope, non-destructive work on
+  their behalf ("stay within track, don't get a penalty"). Policy read; awaiting exact
+  Bugcrowd Targets confirmation before touching any host.
+- 2026-11-21: User reported NOT enrolled in NASA's VDP yet. => No testing. Local-only
   prep continues. On-ramp written to `ENROLLMENT.md`.
 
 ## Open questions for the user

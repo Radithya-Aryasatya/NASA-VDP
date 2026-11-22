@@ -16,6 +16,14 @@ _Written: 2026-11-21 (UTC)_
      empty; `www.nasa.gov`/`bugcrowd.com` unreachable. Need the user to approve enabling
      hosts (D-004). Start READ-only (policy pages) before anything else.
 
+## Scope is now partly known (2026-11-22)
+- Live policy captured in `artifacts/nasa_vdp_policy_2026-11-22.md`; working scope in
+  `artifacts/SCOPE_AUTHORITATIVE.md`. Registered in-scope domains: nasa.gov, usgeo.gov,
+  globe.gov, nspires.nasaprs.com, nsc.nasa.gov. EXACT Bugcrowd Targets still to be
+  confirmed by the user before any host is touched.
+- Dedicated env `nasa-vdp-research` (env_01QZV8SP4GYmP1giijsWSqXj) allows www.nasa.gov +
+  bugcrowd.com only. Add in-scope target hosts (user-approved) when ready to recon.
+
 ## Do next (in order)
 1. Check whether the user answered the authorization questions in `CURRENT_STATE.md`.
    - If NO: do not test. Continue safe work (methodology, tooling that runs locally only).
